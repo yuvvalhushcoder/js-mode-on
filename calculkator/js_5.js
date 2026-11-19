@@ -17,19 +17,19 @@ subEle.addEventListener("click", function() {
     operator = "-";
     outputEle.textContent = "Operator: -";
     subEle.style.background="white";
-    subEle.style.color="black";
+    subEle.style.color="blue";
 });
 mulEle.addEventListener("click", function() {
     operator = "*";
     outputEle.textContent = "Operator: *";
     mulEle.style.background="white";
-    mulEle.style.color="black";
+    mulEle.style.color="blue";
 });
 divEle.addEventListener("click", function() {
     operator = "/";
     outputEle.textContent = "Operator: /";
     divEle.style.background="white";
-    divEle.style.color="black";
+    divEle.style.color="blue";
 });
 calculateEle.addEventListener("click", function() {
     if (inputOneEle.value == "" || inputTwoEle.value == "") {
