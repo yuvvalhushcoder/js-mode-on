@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Practice</title>
 </head>
-<script src="/js.js" "defer" ></script>
 <body>
-    
+
+  <h3 id="greetings">Original heading</h3>
+
+  <p>I'm an old para. Pls :/</p>
+
+  <script>
+    const greetingElem = document.querySelector("#greetings");
+    greetingElem.textContent = "I have been modified";
+
+    const playDiv = document.createElement("div");
+    playDiv.textContent = "Play Play Play!";
+    document.body.appendChild(playDiv);
+
+    const p = document.querySelector("p");
+    p.remove();
+  </script>
+
 </body>
 </html>

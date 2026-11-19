@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+label {
+    margin-right: 10px;
+}
+input {
+    padding: 8px;
+}
+button {
+    padding: 9px;
+    cursor: pointer;
+}
+.op {
+    width: 45px;
+    font-size: 18px;
+}
+#calculate {
+    padding: 10px 25px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+}
+#output {
+    color: #333;
+}
